@@ -1,0 +1,93 @@
+@charset "UTF-8";
+@media screen {
+    :root{
+        --cor01: #24293E;
+        --cor02: #D1CDC1;
+        --cor03: #B5B3B4;
+        --cor04: #262626;
+    }
+    *{
+        margin: 0px;
+        padding: 0px;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 16px;
+    }
+    html, body{
+        background-color: black;
+    }
+    #title{
+        width: 100%;
+        height: 30vh;
+    }
+    #title > h1{
+        color: white;
+        font-size: 2em;
+        text-align: center;
+        padding: 60px;
+    }
+    #levels{
+        width: 50%;
+        margin: auto;
+        text-align: center;
+    }
+    .descritor{
+        background-color: var(--cor01);
+        text-align: center;
+        display: inline-block;
+        padding: 10px;
+        margin: 10px;
+        border-radius: 10px;
+        width: 40px;
+    }
+    .descritor:hover{
+        background-color: black;
+        border: 2px solid var(--cor03);
+        padding: 8px;
+    }
+    a{
+        color: white;
+        font-weight: bolder;
+        text-decoration: none;
+    }
+    a:hover{
+        color: var(--cor03);
+    }
+    .urgency{
+        background-color: red;
+    }
+    
+@media screen and (max-width: 768px) {
+    #levels{
+        width: 80%;
+    }
+}
+@media screen and (min-width: 768px) and (max-width: 992px) {
+    #levels{
+        width: 70%;
+    }
+    #title > h1{
+        font-size: 2.3em;
+    }
+}
+@media screen and (min-width: 992px) and (max-width: 1200px) {
+    #levels{
+        width: 60%;
+    }
+    #title > h1{
+        font-size: 2.5em;
+    }
+    .descritor > a{
+        font-size: 1.1em;
+    }
+}
+@media screen and (min-width: 1200px) {
+    #levels{
+        width: 50%;
+    }
+    #title > h1{
+        font-size: 3em;
+    }
+    .descritor > a{
+        font-size: 1.2em;
+    }
+}
