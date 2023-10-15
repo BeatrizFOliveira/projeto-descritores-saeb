@@ -122,5 +122,9 @@ a > p:hover{
     color: lightgray;
 }
 embed{
-    height: 700px;
+    display: none;
+}
+img{
+    width: 90vw;
+    border-radius: 20px;
 }

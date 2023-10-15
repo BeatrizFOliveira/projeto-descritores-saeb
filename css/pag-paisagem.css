@@ -36,6 +36,13 @@
     .link-list{
         display: none;
     }
+    embed{
+        display: block;
+        height: 700px;
+    }
+    img{
+        display: none;
+    }
 }
 @media screen and (min-width: 768px) and (max-width: 992px) { /*TABLET*/
     .navigation-btn > a{
