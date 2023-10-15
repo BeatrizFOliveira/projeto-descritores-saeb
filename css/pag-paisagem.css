@@ -60,6 +60,9 @@
 }
 
 @media screen and (min-width: 1200px) { /*TV*/
+    nav > div, nav a{
+        padding: 10px;
+    }
     .home-btn > a, a, h2{
         font-size: 1.3em;
     }
