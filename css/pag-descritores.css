@@ -55,7 +55,7 @@
     .urgency{
         background-color: red;
     }
-    
+}
 @media screen and (max-width: 768px) {
     #levels{
         width: 80%;
