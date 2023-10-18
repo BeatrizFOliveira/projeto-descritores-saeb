@@ -34,8 +34,8 @@ a{
         'GRAD' 0,
         'opsz' 24
 }
-
 nav{
+    justify-content: center;
     width: 100%;
     max-height: 70px;
     align-items: center;
@@ -53,7 +53,6 @@ nav > div, nav a{
 }
 .home-btn{
     text-align: center;
-    margin: auto;
 }
 .home-btn > a{
     color: white;
